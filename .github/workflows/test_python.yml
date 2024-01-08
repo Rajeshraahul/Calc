@@ -1,6 +1,6 @@
 name: Testing app
 
-on: push
+on: [push,pull_request]
 
 jobs:
   my-job:
