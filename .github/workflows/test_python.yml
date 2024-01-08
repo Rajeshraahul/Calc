@@ -1,0 +1,13 @@
+name: Testing app
+
+on: push
+
+jobs:
+  my-job:
+    name: My Job
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test Application
+        run: |
+          sudo apt-get install python3
+          python3 ../main_test.py
