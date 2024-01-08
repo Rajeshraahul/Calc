@@ -13,5 +13,4 @@ jobs:
       
         run: |
           sudo apt-get install python3
-          ls -a
-        #   python3 main_test.py
+          python3 main_test.py
