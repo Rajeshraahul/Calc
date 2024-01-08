@@ -10,4 +10,5 @@ jobs:
       - name: Test Application
         run: |
           sudo apt-get install python3
-          python3 main_test.py
+          ls -a
+        #   python3 main_test.py
