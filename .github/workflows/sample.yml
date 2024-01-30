@@ -10,7 +10,7 @@ jobs:
             - name: Print Hello World
               run: echo "Hello World"
             - name: Print Name
-              run: echo "Rajeshs"
+              run: echo "Rajesh"
      
 
 
